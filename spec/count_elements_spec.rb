@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe CountElements do
-  subject { described_class.new(results).perform }
+  subject { described_class.new(results).my_method_to_count }
 
   context 'first dataset' do
     let(:results) { %w[ruby infakt ruby ror ruby ror] }
